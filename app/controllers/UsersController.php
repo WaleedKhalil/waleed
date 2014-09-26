@@ -14,7 +14,7 @@ class UsersController extends BaseController
 	{
         // create post method
 
-        
+        echo "Well done";
 		$user = new User;
 
 		$validation = $user::validate(Input::all());
